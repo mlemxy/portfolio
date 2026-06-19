@@ -1,12 +1,14 @@
-# Unused files - don't track these
-assets/img/*.py
-assets/img/*.html
-assets/img/*.bat
-assets/img/*.ipynb
-assets/img/*.pdf
-assets/img/*.svg
-assets/img/263446164-dcc85301-d1ee-44e9-b95a-cbde14104350.gif
-assets/img/-.png
-assets/img/Screenshot_*.png
-assets/img/singpass_integration_mockup.png
-assets/img/supplypay_invoice_automation.jpg
+# Environment variables — never commit
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# API config — contains your Groq key
