@@ -606,11 +606,7 @@ async function sendChat() {
     return;
   }
 
-  const key = window.MELOS_CONFIG && window.MELOS_CONFIG.GROQ_API_KEY;
-  if (!key || key === 'YOUR_GROQ_KEY_HERE') {
-    appendChatMsg('Chatbot not configured yet. Please add your Groq API key to assets/js/env.js', 'bot');
-    return;
-  }
+  const WORKER = 'https://melos.imgayforbread.workers.dev';
 
   chatBusy = true;
   lastChatTime = now;
@@ -627,12 +623,9 @@ async function sendChat() {
   scrollChat();
 
   try {
-    const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+    const res = await fetch(WORKER, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${key}`,
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         model: 'llama-3.1-8b-instant',
         max_tokens: 512,
