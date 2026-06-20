@@ -15,8 +15,8 @@ PORTFOLIO: mlemxy.github.io/portfolio
 
 EDUCATION:
 - BSc (Hons) Applied Artificial Intelligence, Singapore Institute of Technology (Oct 2024 to present)
-- BSc Computer Science (Hons), University of London, GPA 3.68/4.0 (Oct 2023 to Oct 2024)
-- Diploma in Business and Financial Technology, Nanyang Polytechnic (May 2019 to May 2022)
+- BSc Computer Science (Hons), University of London, GPA 3.68/4.0 (Oct 2023 to Oct 2024). Directed team at SIM-UOL Hackathon 2023 delivering a sustainable sportswear e-commerce site. Vice President of Japanese Cultural and Gaming Society (JCGS) — managed partnerships, organised events, produced proposals.
+- Diploma in Business and Financial Technology, Nanyang Polytechnic (May 2019 to May 2022). Finalist at PolyFintech100 API Hackathon 2021, Green Finance category.
 
 EXPERIENCE:
 - GenAI Intern at National Library Board (Jun 2026 to Dec 2026), Finance Procurement and Administration, hybrid
@@ -25,16 +25,17 @@ EXPERIENCE:
 - Tax Intern at EY Corporate Advisors (Sep 2021 to Nov 2021): automated template processing, Power Query data transformation
 
 PROJECTS:
-1. Merchant Cash Advance (Grab): full-stack fintech loan platform. USD 1M+, 66% loan uplift, Singpass OAuth 2.0 instant KYC. Role: developer, UX designer, UAT tester. Stack: Deluge, Singpass API, Figma.
-2. SupplyPay (Grab): centralized portal automating Grab-supplier-merchant transactions. Led 95% of development. Stack: Deluge, full-stack.
-3. ASL Letter Recognition: 90.38% accuracy on 10 ASL letters. MediaPipe 21 landmarks (63-dim) into PyTorch MLP (256-128-64, ReLU, dropout). 87K+ images + 250 custom webcam samples. Deployed via Flask. Submitted for AAI3001.
-4. Customer Churn Prediction: XGBoost + SMOTE-ENN + SHAP. 81.28% recall, 62.94% F1, 0.8263 AUC. Contract type strongest driver (SHAP 0.7143). Extending to real-time edge deployment on POS terminals. Submitted for AAI2002.
-5. Apple Quality Classification: multi-modal ML. Tabular: XGBoost/LR/RF soft-voting ensemble. Image: custom CNN then ResNet50 transfer learning. Submitted for INF2008.
-6. PeaceSign: speech to ASL web app. Microsoft Code; Without Barriers Grand Finalist. Azure Speech SDK, audio and video input. Stack: Python, Flask, Azure.
-7. Suicide Rates Analysis: EDA and NLP study on Singapore suicide determinants and SOS interventions 2016-2021. 5 datasets, unemployment highly correlated with risk. Submitted for CM2015. Stack: Python, Pandas, NLTK, PRAW.
-8. SIM Email Automation: voucher email distribution reduced from 100min to under 1min (99% reduction), 100 students per batch. Stack: Python, Pandas.
-9. Locky IoT System: 9-month FYP. Android smart locker, Google Sign-In (Firebase Auth), IoT sensor sync (Firebase Realtime DB), push notifications (FCM), Solidity BookingContract.sol on Ethereum for immutable booking records. Stack: Java, Android Studio, Firebase, Solidity.
-10. OrangeBot: NLP-powered Discord bot, SQLite persistence, multi-server deployment. Stack: Python, Discord.py.
+1. MelOS Portfolio: macOS-style interactive desktop OS portfolio built in vanilla HTML, CSS, and JavaScript. Features face-api.js ML login screen with 68-point landmark detection, animated Canvas 2D cafe wallpaper, live AI chatbot via Groq API proxied through Cloudflare Worker, draggable windows, interactive terminal, music player. Live at mlemxy.github.io/portfolio.
+2. Merchant Cash Advance (Grab): full-stack fintech loan platform. USD 1M+, 66% loan uplift, Singpass OAuth 2.0 instant KYC. Role: developer, UX designer, UAT tester. Stack: Deluge, Singpass API, Figma.
+3. SupplyPay (Grab): centralized portal automating Grab-supplier-merchant transactions. Led 95% of development. Stack: Deluge, full-stack.
+4. ASL Letter Recognition: 90.38% accuracy on 10 ASL letters. MediaPipe 21 landmarks (63-dim) into PyTorch MLP (256-128-64, ReLU, dropout). 87K+ images + 250 custom webcam samples. Deployed via Flask. Submitted for AAI3001.
+5. Customer Churn Prediction: XGBoost + SMOTE-ENN + SHAP. 81.28% recall, 62.94% F1, 0.8263 AUC. Contract type strongest driver (SHAP 0.7143). Extending to real-time edge deployment on POS terminals. Submitted for AAI2002.
+6. Apple Quality Classification: multi-modal ML. Tabular: XGBoost/LR/RF soft-voting ensemble. Image: custom CNN then ResNet50 transfer learning. Submitted for INF2008.
+7. PeaceSign: speech to ASL web app. Microsoft Code; Without Barriers Grand Finalist. Azure Speech SDK, audio and video input. Stack: Python, Flask, Azure.
+8. Suicide Rates Analysis: EDA and NLP study on Singapore suicide determinants and SOS interventions 2016-2021. 5 datasets, unemployment highly correlated with risk. Submitted for CM2015. Stack: Python, Pandas, NLTK, PRAW.
+9. SIM Email Automation: voucher email distribution reduced from 100min to under 1min (99% reduction), 100 students per batch. Stack: Python, Pandas.
+10. Locky IoT System: 9-month FYP. Android smart locker, Google Sign-In (Firebase Auth), IoT sensor sync (Firebase Realtime DB), push notifications (FCM), Solidity BookingContract.sol on Ethereum for immutable booking records. Stack: Java, Android Studio, Firebase, Solidity.
+11. OrangeBot: NLP-powered Discord bot, SQLite persistence, multi-server deployment. Stack: Python, Discord.py.
 
 SKILLS:
 - AI/ML/NLP: PyTorch, TensorFlow, XGBoost, MediaPipe, scikit-learn, SHAP, NLTK, LLMs, Transformers, RAG, Prompt Engineering, HuggingFace
@@ -42,7 +43,7 @@ SKILLS:
 - Frameworks: Flask, .NET, Discord.py, Android Studio
 - Cloud/Tools: Microsoft Azure, Firebase, REST APIs, Zoho/Deluge, Figma, Pandas, OpenCV
 
-INTERESTS: vlogging, cosplaying, painting (digital and traditional), music, cats, studying, research, LLMs and NLP
+INTERESTS: Research, Reading Novels, Cats
 FOCUSTOWN ID: melballs (add her to study together)
 `;// ══ BOOT ═════════════════════════════════════════════════
 window.addEventListener('DOMContentLoaded', () => {
