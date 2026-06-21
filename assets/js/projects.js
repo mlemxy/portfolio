@@ -24,7 +24,7 @@ const PROJECTS = [
    github:"",demo:""},
 
   {id:"asl",title:"ASL Letter Recognition",category:"ai-ml",emoji:"🤟",
-   image:"assets/img/face_detection_realtime.gif",
+   image:"assets/img/asl_recognition.gif",
    tagline:"Real-time sign language detection · 90.38% accuracy · PyTorch MLP",
    tags:["PyTorch","MediaPipe","Computer Vision","Flask","Python"],
    metrics:[{v:"90.38%",l:"Validation Accuracy"},{v:"87K+",l:"Training Images"},{v:"63-dim",l:"Feature Vector"}],
