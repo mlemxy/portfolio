@@ -24,7 +24,7 @@ EXPERIENCE:
 - IT Automation and Operations at Grab Holdings (Jul 2022 to Jul 2023): MCA and SupplyPay fintech platforms generating USD 1M+ revenue, 66% loan uplift, Singpass API KYC, up to 90% manual task reduction
 - Tax Intern at EY Corporate Advisors (Sep 2021 to Nov 2021): automated template processing, Power Query data transformation
 
-PROJECTS:
+PROJECTS (12 total):
 1. MelOS Portfolio: macOS-style interactive desktop OS portfolio built in vanilla HTML, CSS, and JavaScript. Features face-api.js ML login screen with 68-point landmark detection, animated Canvas 2D cafe wallpaper, live AI chatbot via Groq API proxied through Cloudflare Worker, draggable windows, interactive terminal, music player. Live at mlemxy.github.io/portfolio.
 2. Merchant Cash Advance (Grab): full-stack fintech loan platform. USD 1M+, 66% loan uplift, Singpass OAuth 2.0 instant KYC. Role: developer, UX designer, UAT tester. Stack: Deluge, Singpass API, Figma.
 3. SupplyPay (Grab): centralized portal automating Grab-supplier-merchant transactions. Led 95% of development. Stack: Deluge, full-stack.
@@ -36,11 +36,12 @@ PROJECTS:
 9. SIM Email Automation: voucher email distribution reduced from 100min to under 1min (99% reduction), 100 students per batch. Stack: Python, Pandas.
 10. Locky IoT System: 9-month FYP. Android smart locker, Google Sign-In (Firebase Auth), IoT sensor sync (Firebase Realtime DB), push notifications (FCM), Solidity BookingContract.sol on Ethereum for immutable booking records. Stack: Java, Android Studio, Firebase, Solidity.
 11. OrangeBot: NLP-powered Discord bot, SQLite persistence, multi-server deployment. Stack: Python, Discord.py.
+12. Archivist: Chrome extension (Manifest V3) to bookmark and track AO3 fanfiction. macOS-style desktop dashboard with draggable glassmorphic windows, dock, and menubar. Local-first via IndexedDB, real-time cross-device sync via Firebase Firestore and Auth. AO3 reading history scraper with smart caching and rate limiting. 9 Chart.js reading stat visualisations. Chapter update checker firing every 12h via chrome.alarms. Open source on GitHub. Plans to add ML reading recommendations. Stack: Vanilla JS, Chrome MV3, IndexedDB, Firebase, Chart.js, esbuild.
 
 SKILLS:
 - AI/ML/NLP: PyTorch, TensorFlow, XGBoost, MediaPipe, scikit-learn, SHAP, NLTK, LLMs, Transformers, RAG, Prompt Engineering, HuggingFace
 - Languages: Python, JavaScript, SQL, C#, Java, PHP, HTML/CSS, Solidity
-- Frameworks: Flask, .NET, Discord.py, Android Studio
+- Frameworks: Flask, .NET, Discord.py, Android Studio, Chrome Extension (MV3)
 - Cloud/Tools: Microsoft Azure, Firebase, REST APIs, Zoho/Deluge, Figma, Pandas, OpenCV
 
 INTERESTS: Research, Reading Novels, Cats

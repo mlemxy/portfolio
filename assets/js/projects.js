@@ -118,4 +118,16 @@ const PROJECTS = [
    impact:["Deployed and active across multiple Discord servers","Natural language command understanding reduces friction for users","Automated moderation and engagement frees admin time","SQLite persistence maintains state across bot restarts"],
    tech:["Python","Discord.py","NLP","SQLite","Async Programming"],
    github:"",demo:""}
+,
+  {id:"archivist",title:"Archivist",category:"full-stack",emoji:"📚",
+   image:"assets/img/archivist.png",
+   tagline:"Chrome extension to bookmark and track AO3 fanfiction · macOS-style dashboard · Firebase sync",
+   tags:["Chrome Extension","Firebase","IndexedDB","Chart.js","Vanilla JS","Manifest V3"],
+   metrics:[{v:"MV3",l:"Chrome Extension"},{v:"Real-time",l:"Firebase Sync"},{v:"9 Charts",l:"Reading Stats"}],
+   overview:"A personal Chrome extension built to learn web extension development. Bookmarks, annotates, and tracks AO3 fanfiction with a macOS-style desktop dashboard, chapter update notifications, AO3 reading history stats, and cross-device sync via Firebase. Plans to add ML-powered reading recommendations.",
+   problem:"AO3 has no native bookmarking system with annotations, personal tags, or reading progress tracking. No way to visualise reading history or get notified when ongoing fics post new chapters.",
+   solution:"Chrome extension (Manifest V3) using IndexedDB for local-first storage, a content script to scrape AO3 fic metadata, a macOS-style dashboard with draggable glassmorphic windows, Chart.js charts from scraped AO3 reading history, a 12-hour alarm-based chapter update checker, and Firebase Firestore for real-time cross-device bookmark sync.",
+   impact:["Full macOS-style desktop UI with draggable windows, dock, menubar, and custom wallpaper","Real-time cross-device sync via Firebase Auth and Firestore","AO3 reading history scraper with smart caching and rate limiting (5-min pauses, exponential backoff)","9 Chart.js reading stat visualisations: top fandoms, ships, characters, ratings, and monthly activity","Chapter update checker: automatically flags ongoing fics with new chapters every 12 hours","Pulsing update badge on fic cards clears on click","Designed for public release — open source on GitHub"],
+   tech:["Vanilla JS","Chrome MV3","IndexedDB","Firebase Auth","Firebase Firestore","Chart.js","html2canvas","esbuild"],
+   github:"https://github.com/mlemxy/archivist",demo:""}
 ];
